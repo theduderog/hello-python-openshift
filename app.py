@@ -6,7 +6,7 @@ from gunicorn.six import iteritems
 
 def wsgi_handler(environ, start_response):
     start_response('200 OK', [('Content-Type','text/html')])
-    return [b"Sweet Baby Application!"]
+    return [b"Sweet Baby Application for Surendra!"]
 
 class StandaloneApplication(BaseApplication):
     def __init__(self, app, options=None):
