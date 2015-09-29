@@ -1,0 +1,47 @@
+{
+
+  "mappings": {
+    "tweet": {
+      "properties": {
+        "@timestamp": {
+          "type": "date"
+        },
+        "followers": {
+          "type": "long"
+        },
+        "handle": {
+          "type": "string"
+        },
+        "lang": {
+          "type": "string"
+        },
+        "location": {
+          "type": "string"
+        },
+        "retweeted": {
+          "type": "boolean"
+        },
+        "text": {
+          "type": "string"
+        },
+        "timezone": {
+          "type": "string"
+        },
+        "username": {
+          "type": "string"
+        }
+      }
+    }
+  },
+  "settings": {
+    "index": {
+      "creation_date": "1443344673075",
+      "number_of_shards": "5",
+      "number_of_replicas": "1",
+      "version": {
+        "created": "1070299"
+      },
+      "uuid": "g2OFl813TTqhXKDHm1famA"
+    }
+  }
+}
